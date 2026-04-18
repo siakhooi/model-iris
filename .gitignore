@@ -1,5 +1,6 @@
 *.ipynb_checkpoints
 *.pyc
 data/raw
-target
-inference
+data/prepared
+data/models
+data/inference/sklearn
