@@ -4,3 +4,4 @@ data/raw
 data/prepared
 data/models
 data/inference/sklearn
+data/inference/keras
