@@ -9,6 +9,8 @@ pyspark
 # training
 numpy
 tensorflow
+tensorflow-datasets
+importlib_resources
 tf2onnx
 onnx
 scikit-learn
