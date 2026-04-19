@@ -8,6 +8,8 @@ pyspark
 
 # training
 numpy
+torch
+lightning
 tensorflow
 tensorflow-datasets
 importlib_resources

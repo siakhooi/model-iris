@@ -5,3 +5,5 @@ data/prepared
 data/models
 data/inference/sklearn
 data/inference/keras
+lightning_logs
+notebooks/checkpoints
