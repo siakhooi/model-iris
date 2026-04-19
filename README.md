@@ -15,3 +15,4 @@
     - [03_inference_keras.ipynb](https://colab.research.google.com/github/siakhooi/model-iris/blob/main/notebooks/03_inference_keras.ipynb)
 - lightning
     - [02_training_lightning.ipynb](https://colab.research.google.com/github/siakhooi/model-iris/blob/main/notebooks/02_training_lightning.ipynb)
+    - [03_inference_lightning.ipynb](https://colab.research.google.com/github/siakhooi/model-iris/blob/main/notebooks/03_inference_lightning.ipynb)
