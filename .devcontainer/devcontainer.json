@@ -9,18 +9,21 @@
 		"vscode": {
 			"extensions": [
 				"lfm.vscode-makefile-term",
+				"es6kr.vscode-makefile-term",
 				"mechatroner.rainbow-csv",
 				"ms-python.python",
 				"ms-python.debugpy",
+				"ms-python.black-formatter",
 				"ms-toolsai.jupyter-ai",
 				"ms-toolsai.jupyter"
 			]
 		}
 	},
 	"mounts": [
-		"source=${localEnv:HOME}${localEnv:USERPROFILE}/.ssh,target=/home/maui/.ssh,type=bind,consistency=cached"
+		"source=/var/run/docker.sock,target=/var/run/docker.sock,type=bind"
 	],
 	"remoteEnv": {
+		"REQUESTS_CA_BUNDLE": "/etc/ssl/certs/ca-certificates.crt",
 		"LOCAL_WORKSPACE_FOLDER": "${localWorkspaceFolder}"
 	}
 }
